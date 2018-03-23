@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Address Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <p class="p-text">Address Book</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+        
+            </div>
+        
+            <div class="col-md-4">
+                <form id="contact-form" method="POST" action="" role="form">
+                    <div class="form-row">
+                        <div class="col">
+                            <button type="submit" name="submit" class="btn mb-2 btn-color" style="font-family:'Ubuntu', san-serif;">
+                                Add Contact
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="submit" name="submit" class="btn mb-2 btn-color" style="font-family:'Ubuntu', san-serif;">
+                                View Contacts
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="name" style="color:#000; font-family:'Monda', sans-serif">Name</label>
+                            <input type="text" class="form-control form-contol-sm" name="name" id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="email" style="color:#000; font-family:'Monda', sans-serif">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="file" style="color:#000; font-family:'Monda', sans-serif">Image</label>
+                            <input type="file" class="form-control" name="image" id="image" placeholder="Choose Image">
+                            <img id="contact-image" src="#" alt="Contact Image" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="mobile" style="color:#000; font-family:'Monda', sans-serif">Mobile Number</label>
+                            <input type="text" class="form-control" name="mobile" id="email" placeholder="Mobile Number">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-row">
+                        <div class="col">
+                            <button type="submit" name="submit" class="btn mb-2 btn-color" style="text-transform:uppercase; font-family:'Ubuntu', san-serif;">
+                                Add Contact
+                            </button>
+
+                            <button type="submit" name="submit" class="btn mb-2 btn-color" style="text-transform:uppercase; font-family:'Ubuntu', san-serif;">
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+        
+                </form>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.jumbotron {
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 100vh;
+    background: #0099ff;
+}
+
+.p-text {
+    text-align: center;
+    font-size: 10vh;
+    color: #ffffff;
+}
