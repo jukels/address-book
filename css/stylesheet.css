@@ -9,4 +9,30 @@
     text-align: center;
     font-size: 10vh;
     color: #ffffff;
+    text-shadow: 2px 2px #fff;
+    font-family: 'Ubuntu', san-serif;
+}
+
+.btn-text {
+    background: #0099ffce;
+    color: #fff;
+}
+
+.btn-text:hover {
+    background: #0099ff;
+}
+
+.table-border {
+    border: 1px solid #0099ff;
+    padding: 10px;
+    background: #0099ff;
+    color: #fff;
+}
+
+#contacts {
+    display: none;
+}
+
+#add-contacts {
+    display: none;
 }
