@@ -5,12 +5,18 @@
     background: #0099ff;
 }
 
-.p-text {
+.h-text {
     text-align: center;
     font-size: 10vh;
     color: #ffffff;
     text-shadow: 2px 2px #fff;
     font-family: 'Ubuntu', san-serif;
+}
+
+.p-text {
+    text-align: center;
+    font-size: 3vh;
+    color: #ffffff;
 }
 
 .btn-text {
